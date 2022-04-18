@@ -1,0 +1,68 @@
+.info{
+    display: flex;
+    justify-content: end;
+    margin-left: 30px;
+
+    
+
+}
+.info a
+{
+    text-decoration-line: none;
+    color: black;
+}
+.img {
+ height: 25px;
+
+}
+.go{
+    height: 200px;
+    align-items: center;
+    margin-top: 80px;
+ 
+    border-radius: 15px;
+
+}
+input{
+
+width: 90%;
+padding-bottom: 5px;
+border-radius: 10px;
+background: url(micro.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: 100%;
+}
+.a
+{
+    margin-top: 5%;
+}
+.s{
+    width: 100%;
+    text-align: center;
+}
+.a a
+{
+    text-decoration-line: none;
+    color: blue;
+}
+.t a
+{
+    text-decoration-line: none;
+    color: black;
+}
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    border: 1px solid rgb(175, 145, 145) ;
+    background-color: rgb(145, 150, 151);
+}
+@media screen and (max-width: 1024px)
+{
+    body
+    {
+        width: 100%;
+    }
+}
+
